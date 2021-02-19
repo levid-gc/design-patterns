@@ -32,6 +32,4 @@ class FeedbackHandler extends Handler {
   }
 }
 
-
-
 export {};
