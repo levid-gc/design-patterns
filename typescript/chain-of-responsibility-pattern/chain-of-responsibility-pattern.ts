@@ -2,7 +2,7 @@ type RequestType = "help" | "feedback";
 
 interface Request {
   type: RequestType;
-};
+}
 
 class Handler {
   private successor!: Handler;
