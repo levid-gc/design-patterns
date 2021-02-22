@@ -1,4 +1,4 @@
-﻿namespace ChainOfResponsibility
+﻿namespace ChainOfResponsibility.MethodChain
 {
     class Creature
     {
@@ -13,6 +13,11 @@
             this.Name = Name;
             this.Attack = Attack;
             this.Defense = Defense;
+        }
+
+        public override string ToString()
+        {
+            return $"Name: {Name}, Attack: {Attack}, Defense: {Defense}";
         }
     }
 }

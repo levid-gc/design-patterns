@@ -1,17 +1,10 @@
-﻿using ChainOfResponsibility.MethodChain;
+﻿using static System.Console;
 
-using static System.Console;
-
-namespace ChainOfResponsibility
+namespace ChainOfResponsibility.MethodChain
 {
-    class Program
+    class MethodChain
     {
-        static void Main(string[] args)
-        {
-            MethodChainRun();
-        }
-
-        public static void MethodChainRun()
+        public static void Run()
         {
             var goblin = new Creature("Goblin", 1, 1);
             WriteLine(goblin);
